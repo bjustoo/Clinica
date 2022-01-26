@@ -1,0 +1,556 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clear{clear:both;}
+.Container{
+    max-width: 1060px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+.Cabecalho-Master{
+    width: 100%;
+    padding: 30px 0 100px 0;
+    min-height: 700px;
+    background-image: url(../IMG/desktop2.png);
+    background-size: cover;
+}
+.Cabecalho-Master header{
+    border-bottom: 1px solid rgb(87, 84, 84);
+    padding-bottom: 10px;
+}
+div.Logo{
+    float: left;
+    width: 300px;
+    height: 110px;
+    background-image: url(../IMG/novalogo.png);
+    background-size: 100% 100%;
+    
+}
+/*responsividade*/
+ul.nav-Desktop{
+    position: absolute;
+    left: 0;
+    top: 70px;
+    width: 100%;
+    background-color: rgba(144, 176, 218, 0.863);
+    margin-top: 78px;
+    list-style-type: none;
+    display: none;
+}
+
+ul.nav-Desktop li{
+    padding: 9px 0;
+    text-align: center;
+    width: 100%;
+    border-bottom: 1px solid white;
+}
+ul.nav-Desktop a{
+    color: rgba(83, 80, 80, 0.678);;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+header nav.Desktop ul{
+    list-style-type: none;  
+}
+
+header nav.Desktop{
+    float: left;
+    padding-left: 90px;
+}
+header nav.Desktop li{
+    padding: 60px 20px;
+    display: inline-block;
+    font-size: 20px;
+    color: rgb(61, 59, 59);
+  
+}
+
+header nav.Desktop li > span> a{
+    color: rgba(99, 97, 97, 0.678);
+    text-decoration: none;
+}
+
+div.Tel-Cabecalho{
+    float: left;
+    position: relative;
+    margin-top: 4%;
+}
+
+div.Tel-Cabecalho span{
+    font-size: 21px;
+    color: black;
+    padding-left: 31px;
+  
+}
+
+nav.Mobile{
+   display: none;
+}
+
+nav.Mobile{
+    position: relative;
+    top: 20px;
+    margin-right: 10px;
+    float: right;
+}
+
+nav.Mobile h3{
+    color: gray;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.Conteudo-Cabecalho{
+    padding: 60px 0;
+}
+
+.Conteudo-Cabecalho .Primeira{
+    float: left;
+    width: 50%;
+}
+
+.Conteudo-Cabecalho .Primeira h2{
+    color:rgb(43, 41, 41);
+    font-weight: normal;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.Conteudo-Cabecalho .Primeira p,b{
+    padding: 15px 0;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.Conteudo-Cabecalho .Primeira span{
+    color:rgb(43, 41, 41) ;
+    font-size: 20px;
+    margin-top: 15px;
+    display: block;
+    font-family: sans-serif;
+}
+
+.Conteudo-Cabecalho .Primeira form input[type=submit]{
+    background-color: rgb(80, 170, 147);
+    margin: 10px 0;
+    color: white;
+    cursor: pointer;
+    height: 40px;
+    width: 100px;
+    padding: 2 30px;
+    border-radius:10px;
+    font-size: 15px;
+    border-bottom: 2px solid rgb(23, 54, 83);
+    margin-left: 7%;
+    font-family: sans-serif;
+}
+
+.Conteudo-Cabecalho .Primeira form input[type=email]:focus{
+    outline: 0;
+}
+
+.Conteudo-Cabecalho .Primeira form input[type=email]{
+    background-color: rgb(219, 216, 216);
+    width: 250px;
+    height: 42px;
+    border-radius: 10px;
+    font-size: 17px;
+    padding-left: 10px;
+}
+.Segunda img{
+    border-radius: 50%; 
+}
+
+.Conteudo-Cabecalho .Segunda{
+    float: left;
+    width: 50%;
+    padding: 0 30px;
+}
+
+.Conteudo-Cabecalho .Segunda img{
+    float: left;
+    width: 50%;
+    border: 20px solid rgba(78, 57, 57, 0);
+}
+
+section.Diferenciais{
+   padding:  40px 0;
+    
+}
+section.Diferenciais > .Container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.Diferencial-1{
+    width: 33.3%;
+    margin-bottom: 30px;
+    padding: 0 10px;
+}
+
+.Diferencial-1 h2{
+    margin: 20px 0;
+    font-size: 30px;
+    font-weight: normal;
+    font-family: sans-serif;
+}
+
+.Diferencial-1 p{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.Sobre > .Container{
+    position: relative;
+    max-width: 1440px;
+}
+
+.Sobre-Container{
+    float: left;
+    width: 50%;
+    
+}
+
+.Sobre-Container img{
+    max-width: 100%;
+    position: relative;
+    border-radius: 10%;
+    top: 30px;
+}
+
+.Sobre-Container-Texto h2{
+    font-size: 33px;
+    margin: 10px 0;
+    color: rgb(80, 170, 147);
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-top: 10%;
+    margin-top: 3%;
+   
+   
+}
+
+.Sobre-Container{
+    padding: 10px 50px 80px 0;
+    margin-top: -40px;
+    margin-bottom: 10%;
+}
+
+section.Depoimento{
+    width: 100%;
+    height: 10%;
+    padding-top: 200px;
+    padding-bottom: 300px;
+    color: rgb(80, 170, 147);
+    position: relative;
+    background-image: url(../IMG/mobile1.png);
+    background-size: cover;
+    text-align: center;
+}
+
+section.Depoimento h2{
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+section.Depoimento p{
+    font-size: 19px;
+    font-family: sans-serif;
+}
+
+section.Etapas{
+    padding: 40px 0;
+}
+
+section.Etapas > .Container{
+    max-width: 1200px;
+}
+
+.Etapas-Individual{
+    float: left;
+    width: 50%;
+}
+
+.Etapas h2{
+    text-align: center;
+    color: rgb(80, 170, 147);
+    font-family: sans-serif;
+    margin-bottom: 10%;
+    font-weight: bold;
+}
+
+.Etapas-Group img{
+    max-width: 100%;
+    float: left;
+    border-radius: 50%;
+}
+
+.Etapas-Individual .Etapas-Group img{
+    width: 50%;
+    margin-bottom: 5%;
+}
+
+.Etapas-Group p{
+    width: 50%;
+    float: left;
+    padding-top: 120px;
+    padding-left: 30px;
+    font-weight: bold;
+    
+}
+
+.Etapas-Group2{
+    margin-bottom: 50px;
+}
+
+.Etapas-Group2 .Circulo{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-left: 15%;
+    border-radius: 50%;
+    border: 4px solid rgb(80, 170, 147);
+    position: relative;
+}
+
+.Circulo span{
+    position: absolute;
+    left: 50%;
+    top: -50px;
+    transform: translate(-50%, -50%);
+}
+
+.Info{
+    position: relative;
+    top: 100px;
+    left: 50%;
+    z-index: 99999;
+    transform: translate(-50%, 0);
+    height: 50px;
+    width: 4px;
+    background-color: rgb(80, 170, 147);
+}
+
+.Info span{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+.Info1 span{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+.Info1{
+    position: absolute;
+    top: 100px;
+    left: 50%;
+}
+
+.Etapas-Descricao{
+    float: left;
+    padding: 0 20px;
+}
+
+
+
+.Etapas-Descricao p{
+    font-size: 16px;
+    color: black;
+    padding-top: 35px;
+}
+
+.Diferencas{
+    padding: 50px 0;
+}
+
+.Diferencas > .Container{
+    max-width: 800px;
+    text-align: center;
+}
+.Diferencias-Geral{
+    float: left;
+    width: 50%;
+    display: inline;
+}
+/*titulo das vantagens*/
+
+.Texto-Centro h2{
+    text-align: center;
+    color: rgb(109, 197, 197);
+    font-family: sans-serif;
+}
+
+.Diferencias-Geral h3, .Diferenca-1 span{
+    color: blue;
+    font-family: sans-serif;
+}
+
+.Diferenca-1 span{
+    color: black;
+}
+.Diferencias-Geral h3{
+    font-size: 33px;
+}
+.Diferenca-1{
+    display: inline-block;
+    position: relative;
+}
+.Linha{
+    position: absolute;
+    left: 0;
+    top: 11px;
+    width: 100%;
+    height: 1px;
+    background: red;
+    transform: rotate(-5deg);
+    z-index: 999;
+}
+.Diferencas-2 h3{
+    display: inline-block;
+    position: relative;
+}
+.Diferenca-2 span{
+    color: black;
+    margin-top: 10%;
+    text-align: right;
+}
+
+
+
+section.Contato{
+    padding: 40px 0;
+    background: rgb(109, 197, 197);
+}
+
+.Contato h2{
+    text-align: center;
+    color: rgba(0, 0, 255, 0.418);
+    font-family: sans-serif;
+    margin-bottom: 5%;
+}
+
+.Contato p{
+    font-size: 15px;
+    margin-left: 13px;
+    display: inline;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.712);
+    font-family: sans-serif;
+}
+
+.Contato p b{
+    font-size: 15px;
+    color: gray;
+    font-family: sans-serif;
+}
+
+section.Contato >.Container{max-width: 900px;}
+
+section.Contato >.form-group{margin-top: 10px;}
+
+section.Contato  input[type=text]{
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid rgb(61, 60, 60);
+    padding-left: 12px;
+    margin-bottom: 10px;
+    
+}
+
+section.Contato textarea{
+    width: 50%;
+    height: 120px;
+    border: 1px solid rgb(61, 60, 60);
+    padding: 8px;
+    border-radius: 20px;
+}
+
+section.Contato  input[type=submit]{
+    width: 140px;
+    height: 60px;
+    border-radius: 20px;
+    border: 1px solid rgb(61, 60, 60);
+    background: rgba(0, 0, 255, 0.418);
+    margin-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    border: 0;
+    cursor: pointer;
+}
+
+footer{
+    background-image: url(../IMG/desktop2.png);
+    height: 50%;
+    padding: 20px 0;
+    text-align: left;
+   padding-left: 5%;
+}
+
+footer img{
+    width: 280px;
+    height: 100px;
+}
+
+/*INICIANDO RESPONSIVIDADE*/
+
+@media screen and (max-width: 900px){
+
+    nav.Desktop{display: none;}
+    nav.Mobile{display: block;}
+
+    
+
+    .Container .Primeira{text-align: center; width: 100%;}
+
+    .Container .Segunda{display: none;}
+
+    .Diferencial-1{width: 100%; text-align: center;}
+
+    .Sobre-Container{width: 100%;}
+
+    .Sobre-Container-Texto{padding: 3%; top: 0;}
+    
+}
+
+@media screen and (max-width:1024px){
+
+    .Etapas-Group{margin: 40px 0;}
+
+    .Etapas-Individual{width: 100%;}
+
+    section.Etapas >.Container{max-width: 700px;}
+
+    .Etapas-Group img{
+        max-width: 100%;
+        display: block;
+        margin: 0 auto;
+        float: none;
+    }
+
+    .Etapas-Group .Etapas-Individual{
+        max-width: 100%;
+        width: auto;
+    }
+
+    .Etapas-Group p{
+        width: 100%;
+        text-align: center;
+        float: none;
+        padding-top: 15px;
+        padding-left: 0;
+        font-size: 19px;
+    }
+
+    .Etapas-Group2{display: none;}
+
+    footer img{width: 150px; height: 60px;}
+}
